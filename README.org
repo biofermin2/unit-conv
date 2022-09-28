@@ -3,13 +3,13 @@ unit conversion program
 
 
 ** Installation
-1.install from github repository.
+1.install from github repository from terminal.
 
 #+BEGIN_SRC sh
 $ ros install biofermin2/unit-conv
 #+END_SRC
 
-2.load library by quickload.
+2.load library by quickload from source code.
 #+BEGIN_SRC lisp
 (ql:quickload '(:unit-conv) :silent t)
 
@@ -17,10 +17,11 @@ $ ros install biofermin2/unit-conv
 
 then you can use this.
 
-that's all.
 
 
 ** Usage
+
+you can use funtions like this.
 
 #+BEGIN_SRC lisp
 ;; 1oz = 28g
